@@ -6,5 +6,6 @@ int main()
 {
 	null_type n();
 
+	printf("%d\n", null::value);
 	return 0;
 }

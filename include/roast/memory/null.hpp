@@ -10,8 +10,10 @@ namespace roast
 	{
 		static const T value = 0;
 	};
-	
-	typedef null_type_<> null_type, NullType;
+
+	typedef null_type_<> null, null_type, NullType;
+
+	//static const null_type null;
 }
 
 #endif//__SFJP_ROAST_roast__memory__null_HPP__
