@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "roast/memory.hpp"
 
+using namespace roast;
 int main()
 {
-	null n();
+	null_type n();
 
 	return 0;
 }
