@@ -3,8 +3,9 @@
 #ifndef __SFJP_ROAST_roast__memory__null_HPP__
 #define __SFJP_ROAST_roast__memory__null_HPP__
 
-class null
+struct null
 {
+	static const int value = 0;
 };
 
 typedef null null_type, NullType;
